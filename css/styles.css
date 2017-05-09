@@ -1,0 +1,389 @@
+    body {
+        text-align: center;
+        padding: 0;
+        font-family: Roboto;
+    }
+    .icon {
+        font-size: 60px;
+        margin: 4% 4%;
+        float: left;
+        color: white;
+        cursor: pointer;
+    }
+    .header img {
+        width: 20%;
+        margin: 2% 6%;
+    }
+    /*....................................*/
+    /* The side navigation menu */
+    
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #012e40;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+    /* The navigation menu links */
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #00d09d;
+        display: block;
+        transition: 0.3s
+    }
+    /* When you mouse over the navigation links, change their color */
+    
+    .sidenav a:hover,
+    .offcanvas a:focus {
+        color: #f1f1f1;
+    }
+    /* Position and style the close button (top right corner) */
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    
+    #main {
+        transition: margin-left .5s;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    /*...................................................................*/
+    /*background image*/
+    
+    .header {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/art/artspace3.jpeg)no-repeat center center;
+        background-size: cover;
+        padding-bottom: 15%;
+    }
+    .header h1 {
+        margin-top: 10%;
+        color: white;
+        font-family: Roboto;
+        font-size: 70px;
+        margin-bottom: 4%;
+    }
+    .header a {
+        color: wheat;
+        margin: 2%;
+        font-size: 25px;
+        border: 1px solid black;
+        padding: 1% 5%;
+        font-family: Roboto;
+    }
+    .header a:hover {
+        text-decoration: none;
+    }
+    .header .aboutHead {
+        background: #00d09d;
+        border-color: #00d09d;
+    }
+    .header .aboutHead:hover {
+        background: #021e40;
+        border-color: #00d09d;
+    }
+    .header .LearnMore {
+        background: #021e40;
+        border-color: #00d09d;
+    }
+    .header .LearnMore:hover {
+        background: #00d09d;
+        border-color: #00d09d;
+    }
+    /*search section*/
+    
+    .searchForm {
+        margin-top: 5%;
+        border: 4px solid #e8ebef;
+        box-shadow: 0px 0px 15px #cdcfd3;
+        padding: 1%;
+    }
+    /*content area*/
+    
+    .h-titles {
+        font-family: Roboto;
+        font-size: 25px;
+        text-align: left;
+    }
+    .title {
+        font-family: Roboto;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .price {
+        margin-left: 1%;
+        color: 00d09d;
+    }
+    /*Subscribe Section*/
+    
+    .subscribe {
+        margin-top: 2%;
+        background: linear-gradient( rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4)), url(../assets/art/artspace3.jpeg)no-repeat center center;
+        background-size: cover;
+        padding-bottom: 20%;
+    }
+    .subscribe h1 {
+        font-family: Roboto;
+        margin-top: 20%;
+        color: white;
+        font-size: 45px;
+        padding-bottom: 2%;
+    }
+    .subscribe p {
+        font-family: Roboto;
+        font-size: 20px;
+        color: white;
+    }
+    .subscribe input {
+        background: rgba(255, 255, 255, 0.8);
+    }
+    .subscribe input:hover {
+        background-color: white;
+    }
+    .subscribe button {
+        color: white;
+        background: #012e40;
+        width: 10%;
+    }
+    .subscribe button:hover {
+        color: white;
+        background: #012e40;
+    }
+    .footer {
+        background: #012e40;
+        padding-top: 5%;
+    }
+    .footer img {
+        width: 40%;
+    }
+    .footer ul {
+        list-style-type: none;
+        margin-top: 5%;
+    }
+    .footer ul li {
+        margin: 2%;
+        font-family: Roboto;
+        display: inline;
+    }
+    .footer ul li a {
+        color: white;
+    }
+    .footer h1 {
+        text-align: center;
+        color: white;
+        font-family: Roboto;
+        font-size: 40px;
+    }
+    /*...............................*/
+    
+    .aboutSect img {
+        width: 330px;
+        height: 300px;
+    }
+    .aboutSect .col-md-6 {
+        padding: 1%;
+    }
+    .aboutSect {
+        margin-top: 1%;
+        padding-bottom: 10%;
+    }
+    .aboutSect h1 {
+        margin-top: 30%;
+        font-size: 50px;
+    }
+    .aboutSect p {
+        margin-top: 1%;
+        font-size: 24px;
+    }
+    .aboutContent h1 {
+        margin-top: 10%;
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: bolder;
+        border-bottom: 2px solid;
+        padding: 1%;
+    }
+    .aboutContent p {
+        margin-top: 1%;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .aboutContent .cont1 {
+        padding-bottom: 4%;
+        background: #012e40;
+        color: white;
+    }
+    .aboutContent .cont2 {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        background: #00d09d;
+        color: #012e40;
+    }
+    /*---------------------------------------Cheneo Coorporate Space Page---------------------*/
+    /*
+Style for the Header Logo.
+*/
+    
+    .navigation {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background-color: #012e40;
+        background-size: cover;
+    }
+    .navigation nav ul {
+        list-style-type: none;
+        position: absolute;
+        top: 9%;
+        left: 70%;
+        right: 0;
+    }
+    .navigation nav ul li {
+        display: inline;
+        margin-left: 4%;
+    }
+    .navigation nav ul li a {
+        color: #fff;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .navigation nav ul li a:hover {
+        color: #00d09d;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .navigation img {
+        position: relative;
+        left: 4%;
+        top: 2%;
+        width: 15%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        float: left;
+    }
+    /*Carousel Styling Using Javascript*/
+    /*Booking Section*/
+    
+    #bookIT {
+        margin-top: 4%;
+    }
+    #title {
+        background-color: #012e40;
+        color: #82ff00;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .bookNow {
+        margin-top: 5%;
+        padding-top: 5%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    button#book {
+        margin: 4%;
+        background-color: #00d09d;
+        border-style: hidden;
+        color: #fff;
+        padding: 3%;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    /*Social Media Icons*/
+    
+    .socialMedia {
+        margin-top: 8%;
+        position: relative;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .socialMedia .link {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 2px dashed white;
+        background-clip: content-box;
+        padding: 10px;
+        transition: .5s;
+        color: #D7D0BE;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2);
+        font-size: 30px;
+    }
+    .socialMedia .link span {
+        display: block;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .socialMedia .link:hover {
+        padding: 20px;
+        color: white;
+        margin-left: -5px;
+        transform: translateX(10px) rotate(360deg);
+    }
+    .socialMedia .link.google-plus {
+        background-color: tomato;
+        color: white;
+    }
+    .socialMedia .link.twitter {
+        background-color: #00ACEE;
+        color: white;
+    }
+    .socialMedia .link.facebook {
+        background-color: #3B5998;
+        color: white;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: Roboto;
+        color: #012e40;
+    }
+    /*Map Container*/
+    
+    #map {
+        float: right;
+    }
+    /*Accordion Section*/
+    
+    #headingOne .panel-header {
+        background: #00d09d;
+    }
